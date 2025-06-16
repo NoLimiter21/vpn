@@ -1,17 +1,17 @@
-name = "vpn"
+name = "siren"
 main = "build/worker/shim.mjs"
 compatibility_date = "2024-05-23"
 minify = true
 workers_dev = true
 
 routes = [
-  { pattern = "vip.mrkings.xyz", custom_domain = true },
-  { pattern = "ava.game.naver.com.vip.mrkings.xyz", custom_domain = true },
-  { pattern = "quiz.int.vidio.com.vip.mrkings.xyz", custom_domain = true },
-  { pattern = "graph.instagram.com.vip.mrkings.xyz", custom_domain = true },
-  { pattern = "zaintest.vuclip.com.vip.mrkings.xyz", custom_domain = true },
-  { pattern = "support.zoom.us.vip.mrkings.xyz", custom_domain = true },  
-  { pattern = "cache.netflix.com.vip.mrkings.xyz", custom_domain = true },
+  { pattern = "your.domain.com", custom_domain = true },
+  { pattern = "ava.game.naver.com.your.domain.com", custom_domain = true },
+  { pattern = "quiz.int.vidio.com.your.domain.com", custom_domain = true },
+  { pattern = "graph.instagram.com.your.domain.com", custom_domain = true },
+  { pattern = "zaintest.vuclip.com.your.domain.com", custom_domain = true },
+  { pattern = "support.zoom.us.your.domain.com", custom_domain = true },  
+  { pattern = "cache.netflix.com.your.domain.com", custom_domain = true },
 ]
 
 [[kv_namespaces]]
